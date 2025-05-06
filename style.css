@@ -1,0 +1,88 @@
+/* DEVELOPER: Riya Kumar, IS117-004, Spring 2024 */
+
+/* General Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fdfbf7;
+    color: #212529;
+    line-height: 1.6;
+  }
+  
+  /* Navbar */
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .nav-link {
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #ffc107 !important;
+  }
+  
+  /* Header */
+  header {
+    background-image: linear-gradient(to right, #ffdd00, #ffc107);
+    color: #000;
+    text-shadow: 1px 1px 2px #fff;
+  }
+  
+  /* Cards */
+  .card {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+  }
+  
+  .card-title {
+    font-weight: bold;
+  }
+  
+  /* Gallery */
+  img.img-fluid {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  /* Forms */
+  form input,
+  form textarea {
+    border: 1px solid #ced4da;
+    border-radius: 0.5rem;
+  }
+  
+  form input:focus,
+  form textarea:focus {
+    border-color: #ffc107;
+    box-shadow: 0 0 5px rgba(255,193,7,0.5);
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #212529;
+  }
+  
+  footer a {
+    text-decoration: underline;
+    color: #ffc107;
+  }
+  
+  footer a:hover {
+    color: #ffffff;
+  }
+  
+  /* Responsive tweaks */
+  @media (max-width: 768px) {
+    .navbar-brand {
+      font-size: 1.25rem;
+    }
+  
+    header h1 {
+      font-size: 2rem;
+    }
+  }
+  
